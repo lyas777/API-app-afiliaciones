@@ -1,0 +1,20 @@
+server:
+  port: 8030
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/Afiliaciones
+    username: root
+    password: 123456
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+
